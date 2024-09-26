@@ -1,9 +1,9 @@
-package observer;
+package observer.weather;
 
-import observer.display.CurrentConditionsDisplay;
-import observer.display.ForecastDisplay;
-import observer.display.HeatIndexDisplay;
-import observer.display.StatisticsDisplay;
+import observer.weather.display.CurrentConditionsDisplay;
+import observer.weather.display.ForecastDisplay;
+import observer.weather.display.HeatIndexDisplay;
+import observer.weather.display.StatisticsDisplay;
 
 public class WeatherStationHeatIndex {
 

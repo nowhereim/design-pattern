@@ -1,8 +1,8 @@
-package observer.display;
+package observer.weather.display;
 
-import observer.DisplayElement;
-import observer.Observer;
-import observer.WeatherData;
+import observer.weather.DisplayElement;
+import observer.weather.Observer;
+import observer.weather.WeatherData;
 
 /**
  * 온도와 습도를 표시하는 디스플레이
@@ -13,7 +13,7 @@ import observer.WeatherData;
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	private float temperature;
 	private float humidity;
-	private WeatherData weatherData;
+	private final WeatherData weatherData;
 	
 	public CurrentConditionsDisplay(WeatherData weatherData) {
 		this.weatherData = weatherData;
