@@ -1,4 +1,4 @@
-package headfirst.designpatterns.facade.hometheater;
+package facade.hometheater;
 
 public class HomeTheaterFacade {
 	Amplifier amp;
@@ -28,7 +28,7 @@ public class HomeTheaterFacade {
 	}
  
 	public void watchMovie(String movie) {
-		System.out.println("Get ready to watch a movie...");
+		System.out.println("영화 상영을 준비합니다...");
 		popper.on();
 		popper.pop();
 		lights.dim(10);
@@ -45,7 +45,7 @@ public class HomeTheaterFacade {
  
  
 	public void endMovie() {
-		System.out.println("Shutting movie theater down...");
+		System.out.println("영화 상영을 종료합니다...");
 		popper.off();
 		lights.on();
 		screen.up();
@@ -56,7 +56,7 @@ public class HomeTheaterFacade {
 	}
 
 	public void listenToRadio(double frequency) {
-		System.out.println("Tuning in the airwaves...");
+		System.out.println("라디오를 시작합니다...");
 		tuner.on();
 		tuner.setFrequency(frequency);
 		amp.on();
@@ -65,7 +65,7 @@ public class HomeTheaterFacade {
 	}
 
 	public void endRadio() {
-		System.out.println("Shutting down the tuner...");
+		System.out.println("라디오를 종료합니다...");
 		tuner.off();
 		amp.off();
 	}
