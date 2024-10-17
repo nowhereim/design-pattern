@@ -51,3 +51,4 @@ public class PancakeHouseMenu implements Menu {
 
 	// 다른 메뉴 메서드 여기에 추가
 }
+//이놈이 콘크리트 어그리게이트. 이터레이터를 생성해서 반환하는 메서드를 구현한다.

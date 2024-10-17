@@ -11,7 +11,7 @@ public class MenuTestDrive {
 		Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
 
 		// 이터레이터를 이용해 메뉴찍기.
-//		waitress.printMenu();
+		waitress.printMenu();
 
 		printMenus();
 	}

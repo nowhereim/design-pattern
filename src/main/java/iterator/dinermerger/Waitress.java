@@ -23,7 +23,7 @@ public class Waitress {
 	}
 
 
-	//오버로딩
+
 	private void printMenu(Iterator iterator) {
 		while (iterator.hasNext()) {
 			MenuItem menuItem = iterator.next();
